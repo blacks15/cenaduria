@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="h1 text-center text-capitalize text-primary titulo-form">Apertura Caja</h2>
+                <hr>
+                <div class="alert alert-danger">
+                    <p class="h5 text-capitalize">Advertencia: esta operación inicia el proceso de apertura.</p>
+                </div>
+                <form id="frmAperturaCaja">
+                    <div class="col-xl-4 offset-xl-4">
+                        <div class="form-group">
+                            <label class="control-label" for="nombreEmpleado">Nombre Empleado:</label>
+                            <input type="text" class="form-control" id="nombreEmpleado" readonly="readonly" placeholder="Felipe Monzon Mendoza">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="fecha">Fecha:</label>
+                            <input type="text" class="form-control" id="fecha" readonly="readonly">
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-7">
+                                <div class="form-group">
+                                    <label for="caja">Caja:</label>
+                                    <select class="form-control selectpicker show-tick" name="caja" id="caja" title="Seleccione una caja" data-width="auto">
+                                        <option value="0">SELECCIONE</option>
+                                        <option value="1">CAJA 1</option>
+                                        <option value="2">CAJA 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="form-group">
+                                    <label for="efectivo">Efectivo:</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">$</span>
+                                        </div>
+                                        <input type="text" class="form-control" name="efectivo" id="efectivo" maxlength="5">
+                                        <div class="tooltip-info" data-toggle="tooltip" title="Ingrese la Cantidad con la que se Abrira la Caja">
+                                            <i class="fa fa-question input-group-tex"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 offset-xl-2">
+                            <button type="button" class="btn btn-primary" id="btnIniciarApertura">Iniciar Apertura</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="public/js/frmAperturaCaja.js"></script>

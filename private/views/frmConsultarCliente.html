@@ -1,0 +1,102 @@
+<div class="col-xl-12 mt-4">
+    <h1 class="h2 text-primary text-center">Consulta Clientes</h1>
+    <hr>
+    <div class="row">
+        <div class="col-xl-12">
+            <form id="frmConsultaCliente">
+                <div class="row">
+                    <div class="col-11 col-sm-12 col-xl-12 text-center">
+                        <div class="custom-control custom-radio custom-control-inline cus-margin-right-cell-cli">
+                            <input type="radio" class="custom-control-input" id="tCliente" name="buscarCliente" value="buscarTodos" autocomplete="off">
+                            <label class="custom-control-label" for="tCliente">Buscar Todos</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nCliente" name="buscarCliente" value="buscarNumCli" autocomplete="off">
+                            <label class="custom-control-label" for="nCliente">Número Cliente</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nombre" name="buscarCliente" value="buscarNombreCli" autocomplete="off">
+                            <label class="custom-control-label" for="nombre">Nombre Cliente</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-10">
+                        <div class="row d-none" id="buscarNumCli">
+                            <div class="col-xl-12">
+                                <div class="form-group text-center">
+                                    <div class="row">
+                                        <div class="col-xl-4 offset-xl-5">
+                                            <label for="numCliente">Núm. Cliente:</label>
+                                            <input type="text" class="form-control" name="numCliente" id="numCliente">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" id="buscarNombreCli">
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="nombreCliente">Nombre:</label>
+                                    <input type="text" class="form-control" name="nombreCliente" id="nombreCliente" maxlength="50">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="snombreCliente">Segundo Nombre:</label>
+                                    <input type="text" class="form-control" name="snombreCliente" id="snombreCliente" maxlength="50">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="apaterno">Apellido Paterno:</label>
+                                    <input type="text" class="form-control" name="apaterno" id="apaterno" maxlength="50">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="amaterno">Apellido Materno:</label>
+                                    <input type="text" class="form-control" name="amaterno" id="amaterno" maxlength="50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 cust-pt-1">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" id="btnSearch">
+                                <i class="fa fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="table-responsive">
+                <table class="table table-sm table-striped bg-red d-none" id="thTable">
+                    <thead>
+                        <th class="text-center">Id</th>
+                        <th class="text-center">Nombre 1</th>
+                        <th class="text-center">Nombre 2</th>
+                        <th class="text-center">Apellido Paterno</th>
+                        <th class="text-center">Apellido Materno</th>
+                        <th class="text-center">Calle</th>
+                        <th class="text-center">Núm Int</th>
+                        <th class="text-center">Núm Ext</th>
+                        <th class="text-center">Tipo Crédito</th>
+                        <th class="text-center" colspan="2">Acciones </th>
+                    </thead>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <ul class="pagination justify-content-center pagination-md" id="paginate"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="public/js/frmConsultarCliente.js"></script>

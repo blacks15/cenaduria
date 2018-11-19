@@ -1,0 +1,62 @@
+<div class="col-xl-12 mt-4">
+    <h1 class="h2 text-primary text-center">Consulta Marcas</h1>
+    <hr>
+    <div class="row">
+        <div class="col-xl-12">
+            <form id="frmConsultaMarca">
+                <div class="row">
+                    <div class="col-11 col-sm-12 col-xl-12 text-center">
+                        <div class="custom-control custom-radio custom-control-inline cus-margin-right-cell-cli">
+                            <input type="radio" class="custom-control-input" id="tMarca" name="bucarMarca" value="buscarTodos" autocomplete="off">
+                            <label class="custom-control-label" for="tMarca">Buscar Todos</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nombre" name="bucarMarca" value="buscarNombreMarca" autocomplete="off">
+                            <label class="custom-control-label" for="nombre">Nombre Marca</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-4 offset-xl-3">
+                        <div class="row d-none" id="buscarNombreMarca">
+                            <div class="col-xl-8 offset-xl-4">
+                                <div class="form-group text-center">
+                                    <label for="nombreMarca">Nombre:</label>
+                                    <input type="text" class="form-control" name="nombreMarca" id="nombreMarca">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 cust-pt-1">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" id="btnSearch">
+                                <i class="fa fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 offset-xl-3">
+            <div class="table-responsive">
+                <table class="table table-sm table-striped bg-red d-none" id="thTable">
+                    <thead>
+                        <th class="text-center">Id</th>
+                        <th class="text-center">Nombre</th>
+                        <th class="text-center">Descripción</th>
+                        <th class="text-center" colspan="2">Acciones </th>
+                    </thead>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <ul class="pagination justify-content-center pagination-md" id="paginate"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="public/js/frmConsultarMarca.js"></script>

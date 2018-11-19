@@ -1,0 +1,103 @@
+<div class="col-xl-12 mt-4">
+    <h1 class="h2 text-primary text-center">Consulta Empleados</h1>
+    <hr>
+    <div class="row">
+        <div class="col-xl-12">
+            <form id="frmConsultaEmpleado">
+                <div class="row">
+                    <div class="col-11 col-sm-12 col-xl-12 text-center">
+                        <div class="custom-control custom-radio custom-control-inline cus-margin-right-cell-emp">
+                            <input type="radio" class="custom-control-input" id="tEmpleados" name="buscarEmpleado" value="buscarTodos" autocomplete="off">
+                            <label class="custom-control-label" for="tEmpleados">Buscar Todos</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nEmpleado" name="buscarEmpleado" value="buscarNumEmp" autocomplete="off">
+                            <label class="custom-control-label" for="nEmpleado">Número Empleado</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nombre" name="buscarEmpleado" value="buscarNombreEmp" autocomplete="off">
+                            <label class="custom-control-label" for="nombre">Nombre Empleado</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-10">
+                        <div class="row d-none" id="buscarNumEmp">
+                            <div class="col-xl-12">
+                                <div class="form-group text-center">
+                                    <div class="row">
+                                        <div class="col-xl-4 offset-xl-5">
+                                            <label for="numEmpleado">Núm. Empleado:</label>
+                                            <input type="text" class="form-control" name="numEmpleado" id="numEmpleado">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" id="buscarNombreEmp">
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="nombreEmpleado">Nombre:</label>
+                                    <input type="text" class="form-control" name="nombreEmpleado" id="nombreEmpleado">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="snombreEmpleado">Segundo Nombre:</label>
+                                    <input type="text" class="form-control" name="snombreEmpleado" id="snombreEmpleado">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="apaterno">Apellido Paterno:</label>
+                                    <input type="text" class="form-control" name="apaterno" id="apaterno">
+                                </div>
+                            </div>
+                            <div class="col-xl-3">
+                                <div class="form-group text-center">
+                                    <label for="amaterno">Apellido Materno:</label>
+                                    <input type="text" class="form-control" name="amaterno" id="amaterno">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 cus-padding-top-1r">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" id="btnsearch">
+                                <i class="fa fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="table-responsive">
+                <table class="table table-striped table-sm d-none bg-red" id="thTable">
+                    <thead>
+                        <th class="text-center">Matricula</th>
+                        <th class="text-center">Nombre 1</th>
+                        <th class="text-center">Nombre 2</th>
+                        <th class="text-center">Apellido Paterno</th>
+                        <th class="text-center">Apellido Materno</th>
+                        <th class="text-center">Calle</th>
+                        <th class="text-center">Núm Int</th>
+                        <th class="text-center">Sueldo</th>
+                        <th class="text-center">Tipo</th>
+                        <th class="text-center" colspan="2">Acciones</th>
+                    </thead>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <ul class="pagination justify-content-center pagination-md" id="paginate"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- END ROW -->
+</div>
+<script type="text/javascript" src="public/js/frmConsultarEmpleado.js"></script>

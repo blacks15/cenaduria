@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="public/plugins/font-awesome/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="public/plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/loading.css">
+</head>
+
+<body class="h-100 w-100 position-absolute" color="blue-lighten-1">
+    <div class="container h-100">
+        <div class="row justify-content-center align-items-center h-94">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="h1 text-center text-capitalize text-primary titulo-form">Login</h2>
+                        <hr>
+                        <form id="frmLogin">
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-fw fa-user"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control text-none" id="usuario" name="usuario" maxlength="20" placeholder="Usuario" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-fw fa-lock"></i>
+                                        </span>
+                                    </div>
+                                    <input type="password" class="form-control text-none" id="password" name="password" maxlength="20" placeholder="Contraseña"
+                                        autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-primary" id="btnLogin" disabled="disabled">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- END CARD -->
+            </div>
+        </div>
+        <div class="row">
+            <footer class="footer w-100">
+                <div class="container-fluid">
+                    <p class="copyright float-right"></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="public/plugins/jquery/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="public/plugins/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="public/plugins/sweetalert/sweetalert2.all.js"></script>
+    <script type="text/javascript" src="public/plugins/basicjs/basicjs.js"></script>
+    <script type="text/javascript" src="public/js/rutas.js"></script>
+    <script type="text/javascript" src="public/js/global.js"></script>
+    <script type="text/javascript" src="public/js/login.js"></script>
+</body>
+
+</html>

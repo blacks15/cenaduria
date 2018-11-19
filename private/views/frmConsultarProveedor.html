@@ -1,0 +1,85 @@
+<div class="col-xl-12 mt-4">
+    <h1 class="h2 text-primary text-center">Consulta Proveedores</h1>
+    <hr>
+    <div class="row">
+        <div class="col-xl-12">
+            <form id="frmConsultaCliente">
+                <div class="row">
+                    <div class="col-11 col-sm-12 col-xl-12 text-center">
+                        <div class="custom-control custom-radio custom-control-inline cus-margin-right-cell-cli">
+                            <input type="radio" class="custom-control-input" id="tEmpleados" name="buscarProveedor" value="buscarTodos" autocomplete="off">
+                            <label class="custom-control-label" for="tEmpleados">Buscar Todos</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nEmpleado" name="buscarProveedor" value="buscarNumProv" autocomplete="off">
+                            <label class="custom-control-label" for="nEmpleado">Número Proveedor</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" class="custom-control-input" id="nombre" name="buscarProveedor" value="buscarNombreProv" autocomplete="off">
+                            <label class="custom-control-label" for="nombre">Nombre Proveedor</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-xl-10">
+                        <div class="row d-none" id="buscarNumProv">
+                            <div class="col-xl-12">
+                                <div class="form-group text-center">
+                                    <div class="row">
+                                        <div class="col-xl-4 offset-xl-5">
+                                            <label for="numProveedor">Núm. Proveedor:</label>
+                                            <input type="text" class="form-control" name="numProveedor" id="numProveedor">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-none" id="buscarNombreProv">
+                            <div class="col-xl-4 offset-xl-5">
+                                <div class="form-group text-center">
+                                    <label for="nombreProveedor">Nombre:</label>
+                                    <input type="text" class="form-control" name="nombreProveedor" id="nombreProveedor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 cust-pt-1">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" id="btnSearch">
+                                <i class="fa fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- END COL -->
+    </div>
+    <!-- END ROW -->
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="table-responsive">
+                <table class="table table-striped table-sm d-none bg-red" id="thTable">
+                    <thead>
+                        <th class="text-center">RFC</th>
+                        <th class="text-center">Nombre Empresa</th>
+                        <th class="text-center">Nombre Contacto</th>
+                        <th class="text-center">Calle</th>
+                        <th class="text-center">Núm</th>
+                        <th class="text-center">Tipo Empresa</th>
+                        <th class="text-center">Teléfono</th>
+                        <th class="text-center">Celular</th>
+                        <th class="text-center" colspan="2">Acciones </th>
+                    </thead>
+                    <tbody id="table"></tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <ul class="pagination justify-content-center pagination-md" id="paginate"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="public/js/frmConsultarProveedor.js"></script>

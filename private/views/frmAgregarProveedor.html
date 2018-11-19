@@ -1,0 +1,239 @@
+<div class="wizard col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="wizard-inner">
+        <div class="progress col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="myProgressbar">
+            <div class="progress-bar progress-bar-striped animated" role="progressbar" aria-valuenow="16.161616" aria-valuemin="16.161616"
+                aria-valuemax="100"></div>
+        </div>
+        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="profile-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+                    <i class="fa fa-id-badge round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="16.161616"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" id="address-tab" data-toggle="pill" href="#address" role="tab" aria-controls="address" aria-selected="false">
+                    <i class="fa fa-home round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="49.494616"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" id="contact-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                    <i class="fa fa-envelope round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="82.827616"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <form id="frmAgregarProveedor" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-3">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h1 class="h2 text-primary text-center">Datos de Contacto</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-2">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-2">
+                                        <div class="form-group">
+                                            <label for="empresa">Nombre Empresa:</label>
+                                            <input type="text" class="form-control" name="empresa" id="empresa" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="rfc">R.F.C:</label>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" name="rfc" id="rfc" placeholder="CUPU800825569" maxlength="13">
+                                                <div class="tooltip-info" data-toggle="tooltip" title="En Caso de Ser Persona Fisica, Escribir el R.F.C. del Responsable">
+                                                    <i class="fa fa-question input-group-tex "></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tEmpresa">Tipo Empresa:</label>
+                                            <select class="selectpicker show-tick" name="tEmpresa" id="tEmpresa">
+                                                <option value="0">SELECCIONE</option>
+                                                <option value="1">FISICA</option>
+                                                <option value="2">MORAL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <div class="form-group">
+                                            <label for="nombreContacto">Nombre Contacto:</label>
+                                            <input type="text" class="form-control" name="nombreContacto" id="nombreContacto" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="snombreContacto">Segundo Nombre:</label>
+                                            <input type="text" class="form-control" name="snombreContacto" id="snombreContacto" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="apaternoContacto">Apellido Paterno:</label>
+                                            <input type="text" class="form-control" name="apaternoContacto" id="apaternoContacto" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="amaternoContacto">Apellido Materno:</label>
+                                            <input type="text" class="form-control" name="amaternoContacto" id="amaternoContacto" maxlength="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 offset-xl-10 text-center ">
+                        <button type="button" class="btn btn-primary" id="btnPaso2">
+                            Siguiente
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="profile-tab">
+                <h1 class="h2 text-primary text-center">Domicilio</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-2">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-7 offset-xl-1">
+                                        <div class="form-group">
+                                            <label for="cp">Código Postal:</label>
+                                            <input type="text" class="form-control" name="cp" id="cp" maxlength="5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <div class="form-group">
+                                            <label for="ciudad">Ciudad:</label>
+                                            <input type="text" class="form-control" name="ciudad" id="ciudad" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="estado">Estado:</label>
+                                            <input type="text" class="form-control" name="estado" id="estado" maxlength="50 ">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="colonia">Colonia:</label>
+                                            <input type="text" class="form-control" name="colonia" id="colonia" maxlength="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <div class="form-group">
+                                            <label for="calle">Calle:</label>
+                                            <input type="text" class="form-control" name="calle" id="calle" maxlength="50">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div class="form-group">
+                                            <label for="numInt">Núm. Int.:</label>
+                                            <input type="text" class="form-control" name="numInt" id="numInt" maxlength="6">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5">
+                                        <div class="form-group">
+                                            <label for="numExt">Núm. Ext.:</label>
+                                            <input type="text" class="form-control" name="numExt" id="numExt" maxlength="6">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <div class="form-group">
+                                            <label for="referencia">Referencia:</label>
+                                            <textarea class="form-control" id="referencia" name="referencia" cols="15" rows="5" maxlength="200"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="float-left">
+                        <button type="button" class="btn btn-primary" id="btnAnt">
+                            <i class="fa fa-arrow-left"></i>
+                            Anterior
+                        </button>
+                    </div>
+                    <div class="float-right ml-auto p-2">
+                        <button type="button" class="btn btn-primary" id="btnPaso3">
+                            Siguiente
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h1 class="h2 text-primary text-center">Datos de Contacto</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <div class="form-group">
+                                    <label for="tel1">Teléfono 1:</label>
+                                    <input type="text" class="form-control" name="tel1" id="tel1" maxlength="10">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel2">Teléfono 2:</label>
+                                    <input type="text" class="form-control" name="tel2" id="tel2" maxlength="10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <div class="form-group">
+                                    <label for="cel1">Celular 1:</label>
+                                    <input type="text" class="form-control" name="cel1" id="cel1" maxlength="10">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cel2">Celular 2:</label>
+                                    <input type="text" class="form-control" name="cel2" id="cel2" maxlength="10">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input type="text" class="form-control" name="email" id="email" maxlength="50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="float-left">
+                        <button type="button" class="btn btn-primary" id="btnAnt2">
+                            <i class="fa fa-arrow-left"></i>
+                            Anterior
+                        </button>
+                    </div>
+                    <div class="float-right ml-auto p-2">
+                        <button type="button" class="form-control btn btn-primary" id="btnSave">
+                            Guardar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript " src="public/js/frmAgregarProveedor.js "></script>

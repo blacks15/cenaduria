@@ -1,0 +1,254 @@
+<link rel="stylesheet" href="public/plugins/datepicker/css/bootstrap-datepicker.css">
+<div class="wizard col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="wizard-inner">
+        <div class="progress col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="myProgressbar">
+            <div class="progress-bar progress-bar-striped animated" role="progressbar" aria-valuenow="16.161616" aria-valuemin="16.161616"
+                aria-valuemax="100"></div>
+        </div>
+        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="profile-tab" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+                    <i class="fa fa-id-badge round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="16.161616"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" id="address-tab" data-toggle="pill" href="#address" role="tab" aria-controls="address" aria-selected="false">
+                    <i class="fa fa-home round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="49.494616"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" id="contact-tab" data-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                    <i class="fa fa-envelope round-tab" data-toggle="progressbar" data-target="#myProgressbar" data-value="82.827616"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <form id="frmAgregarEmpleado" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-3">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h1 class="h2 text-primary text-center">Datos Personales</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="form-group">
+                            <label for="nombreEmpleado">*Nombre:</label>
+                            <input type="text" class="form-control" name="nombreEmpleado" id="nombreEmpleado" maxlength="50" required tabindex="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="snombreEmpleado">Segundo Nombre:</label>
+                            <input type="text" class="form-control" name="snombreEmpleado" id="snombreEmpleado" maxlength="50" tabindex="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="apaterno">*Apellido Paterno:</label>
+                            <input type="text" class="form-control" name="apaterno" id="apaterno" maxlength="50" required tabindex="3">
+                        </div>
+                        <div class="form-group">
+                            <label for="amaterno">*Apellido Materno:</label>
+                            <input type="text" class="form-control" name="amaterno" id="amaterno" maxlength="50" required tabindex="4">
+                        </div>
+                    </div>
+                    <div class="col-xl-4 cus-paddin-left-4r">
+                        <div class="row">
+                            <div class="col-xl-10">
+                                <div class="form-group">
+                                    <label for="fechaNac">*Fecha Nacimiento:</label>
+                                    <input type="text" class="form-control" name="fechaNac" id="fechaNac" readonly required placeholder="DD/MM/YYYY" tabindex="5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sexo">*Sexo:</label>
+                                    <select class="form-control selectpicker show-tick" name="genero" id="genero" title="Seleccione el sexo" data-width="95%"
+                                        required tabindex="6"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="rfc">R.F.C:</label>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control text-uppercase" name="rfc" id="rfc" placeholder="CUPU800825569" maxlength="13" tabindex="7">
+                                        <div class="tooltip-info" data-toggle="tooltip" title="En Caso de Ser Persona Fisica, Escribir el R.F.C. del Responsable">
+                                            <i class="fa fa-question input-group-tex "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="numSSocial">Núm Seguro Social:</label>
+                                    <input type="text" class="form-control" name="numSSocial" id="numSSocial" maxlength="11" tabindex="8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="form-group">
+                                    <label for="sueldo">*Sueldo:</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">$</span>
+                                        </div>
+                                        <input type="text" class="form-control moneyMask" name="sueldo" id="sueldo" maxlength="6" required tabindex="9">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="puesto">*Puesto:</label>
+                                    <select class="form-control selectpicker show-tick" name="puesto" id="puesto" title="Seleccione un perfil" data-width="95%"
+                                        required tabindex="10"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <p class="text-muted">Los datos con (*) son obligatorios</p>
+                    <div class="float-right ml-auto p-2">
+                        <button type="button" class="btn btn-primary" id="btnPaso2">
+                            Siguiente
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="address" role="tabpanel" aria-labelledby="profile-tab">
+                <h1 class="h2 text-primary text-center">Domicilio</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-2">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-7 offset-xl-1">
+                                        <div class="form-group">
+                                            <label for="cp">*Código Postal:</label>
+                                            <input type="text" class="form-control" name="cp" id="cp" maxlength="5" required autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-10 offset-xl-1">
+                                        <div class="form-group">
+                                            <label for="ciudad">Ciudad:</label>
+                                            <input type="text" class="form-control" name="ciudad" id="ciudad" maxlength="50" readonly="readonly">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="estado">Estado:</label>
+                                            <input type="text" class="form-control" name="estado" id="estado" maxlength="50" readonly='readonly'>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="colonia">*Colonia:</label>
+                                            <select class="form-control selectpicker show-tick" name="colonias" id="colonias" title="Seleccione una Colonia" data-width="95%"
+                                                required></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <div class="form-group">
+                                            <label for="calle">*Calle:</label>
+                                            <input type="text" class="form-control" name="calle" id="calle" maxlength="50" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div class="form-group">
+                                            <label for="numExt">*Núm. Ext.:</label>
+                                            <input type="text" class="form-control" name="numExt" id="numExt" maxlength="6" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label for="numInt">Núm. Int.: (Opcional)</label>
+                                            <input type="text" class="form-control" name="numInt" id="numInt" maxlength="6">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-10">
+                                        <div class="form-group">
+                                            <label for="referencia">Referencia: (Opcional)</label>
+                                            <textarea class="form-control" id="referencia" name="referencia" cols="15" rows="5" maxlength="200"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">Los datos con (*) son obligatorios</p>
+                <hr>
+                <div class="row">
+                    <div class="float-left">
+                        <button type="button" class="btn btn-primary" id="btnAnt">
+                            <i class="fa fa-arrow-left"></i>
+                            Anterior
+                        </button>
+                    </div>
+                    <div class="float-right ml-auto p-2">
+                        <button type="button" class="btn btn-primary" id="btnPaso3">
+                            Siguiente
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h1 class="h2 text-primary text-center">Datos de Contacto</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-2">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-7 offset-xl-3">
+                                        <div class="form-group">
+                                            <label for="tel1">Teléfono 1:</label>
+                                            <input type="text" class="form-control phoneMask" name="tel1" id="tel1" maxlength="10" autocomplete="off">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tel2">Teléfono 2: (Opcional)</label>
+                                            <input type="text" class="form-control phoneMask" name="tel2" id="tel2" maxlength="10" autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-xl-7">
+                                        <div class="form-group">
+                                            <label for="cel1">Celular:</label>
+                                            <input type="text" class="form-control phoneMask" name="cel" id="cel" maxlength="10" autocomplete="off">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">E-mail: (Opcional)</label>
+                                            <input type="text" class="form-control text-lowercase" name="email" id="email" maxlength="50" placeholder="ejemplo@correo.com"
+                                                autocomplete="off">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-muted">Debe proporcionar al menos un teléfono de contacto</p>
+                <hr>
+                <div class="row">
+                    <div class="float-left">
+                        <button type="button" class="btn btn-primary" id="btnAnt2">
+                            <i class="fa fa-arrow-left"></i>
+                            Anterior
+                        </button>
+                    </div>
+                    <div class="float-right ml-auto p-2">
+                        <button type="button" class="form-control btn btn-primary" id="btnSave">
+                            Guardar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="public/plugins/datepicker/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="public/plugins/datepicker/locales/bootstrap-datepicker.es.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="public/js/frmAgregarEmpleado.js"></script>

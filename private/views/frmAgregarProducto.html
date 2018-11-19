@@ -1,0 +1,70 @@
+<link rel="stylesheet" type="text/css" href="public/plugins/file-input/css/fileinput.min.css" media="all">
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-2">
+    <form id="frmAgregarCaja" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 cust-margin-bottom-20">
+        <h1 class="h2 text-primary text-center">Registrar Producto</h1>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="file-loading">
+                            <input type="file" id="imagen" name="imagen">
+                        </div>
+                        <div id="errorBlock" class="help-block"></div>
+                        <div class="form-group">
+                            <label for="codigoProducto">Código Producto:</label>
+                            <input type="text" class="form-control" name="codigoProducto" id="codigoProducto" maxlength="50" tabindex="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombreProducto">Nombre Producto:</label>
+                            <input type="text" class="form-control" name="nombreProducto" id="nombreProducto" maxlength="50" tabindex="2">
+                        </div>
+                    </div>
+                </div>
+                <!-- END ROW  -->
+            </div>
+            <div class="col-xl-6">
+                <div class="form-group">
+                    <label for="proveedor">Proveedor:</label>
+                    <select class="selectpicker show-tick form-control" name="proveedor" id="proveedor" tabindex="3" title="Seleccione un Proveedor"
+                        data-width="auto">
+                        <option value="0">SELECCIONE</option>
+                        <option value="1">DISTRIBUIDORA DEL NORTE</option>
+                        <option value="2">GRUPO COMERCIAL DOS S.A DE C.V</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="categoria">Categoría:</label>
+                    <select class="selectpicker show-tick form-control" name="categoria" id="categoria" tabindex="4" title="Seleccione una Categoría"
+                        data-width="auto">
+                        <option value="0">SELECCIONE</option>
+                        <option value="1">ROPA</option>
+                        <option value="2">LIBROS</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="marca">Marca:</label>
+                    <select class="selectpicker show-tick form-control" name="marca" id="marca" tabindex="5" title="Seleccione una Categoría"
+                        data-width="auto">
+                        <option value="0">SELECCIONE</option>
+                        <option value="1">NIKE</option>
+                        <option value="2">SALVAJE</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea class="form-control" id="descripcion" name="descripcion" tabindex="6" cols="15" rows="5"></textarea>
+                </div>
+                <div class="form-group col-xl-6 col-12 offset-xl-3 mt-2r">
+                    <button type="button" class="btn btn-primary" id="btnSave">Guardar</button>
+                </div>
+            </div>
+        </div>
+        <!-- CLOSE ROW -->
+    </form>
+</div>
+<script type="text/javascript" src="public/plugins/file-input/js/fileinput.js"></script>
+<script type="text/javascript" src="public/plugins/file-input/js/locales/es.js"></script>
+<script type="text/javascript" src="public/plugins/file-input/themes/fas/theme.min.js"></script>
+<script type="text/javascript" src="public/js/frmAgregarProducto.js"></script>

@@ -1,0 +1,188 @@
+[17-Jul-2018 16:26:28] [debug] [::1] entro metodo menu
+[17-Jul-2018 16:26:28] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 16:26:30] [debug] [::1] entro metodo submenu
+[17-Jul-2018 16:26:30] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 16:26:31] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 16:26:31] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 16:26:41] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:27:37] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:28:50] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:29:29] [debug] [::1] entro metodo menu
+[17-Jul-2018 16:29:29] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 16:29:31] [debug] [::1] entro metodo submenu
+[17-Jul-2018 16:29:31] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 16:29:34] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 16:29:34] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 16:29:41] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:30:19] [debug] [::1] entro metodo menu
+[17-Jul-2018 16:30:28] [debug] [::1] entro metodo login
+[17-Jul-2018 16:30:29] [debug] [::1] entro metodo menu
+[17-Jul-2018 16:30:29] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 16:30:32] [debug] [::1] entro metodo submenu
+[17-Jul-2018 16:30:32] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 16:30:33] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 16:30:33] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 16:30:41] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:32:12] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:36:25] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:36:50] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 16:37:17] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:04:40] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:04:40] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:26:00] [debug] [::1] entro metodo menu
+[17-Jul-2018 18:26:00] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 18:26:05] [debug] [::1] entro metodo submenu
+[17-Jul-2018 18:26:05] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 18:26:06] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 18:26:06] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 18:26:25] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:26:25] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:27:08] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:27:08] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:33:10] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:33:10] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:33:50] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:33:50] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:34:41] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:34:41] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:35:31] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:35:31] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:40:28] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:40:28] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 18:40:47] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 18:40:47] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 10:49:58] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 10:49:58] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 10:51:08] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 10:51:08] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 10:53:51] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 10:53:51] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 10:55:46] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 10:55:46] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 10:58:22] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 10:58:22] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:04:25] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:04:25] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:05:06] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:05:07] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:05:51] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:05:51] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:06:05] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:06:05] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:06:32] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:06:32] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:07:32] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:07:32] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:10:21] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:10:21] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:14:03] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:14:03] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:17:46] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:17:46] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:24:25] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:24:25] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 11:57:41] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 11:57:41] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 12:00:25] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 12:00:25] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 12:05:00] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:05:00] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:05:00] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:05:02] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:05:02] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:05:03] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:05:03] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:05:30] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 12:05:30] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 12:08:59] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 12:08:59] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 12:09:03] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:09:03] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:09:05] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:09:05] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:09:06] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:09:06] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:09:57] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:09:57] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:09:58] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:09:58] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:09:59] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:09:59] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:11:12] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:11:12] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:11:13] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:11:13] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:11:14] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:11:14] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:12:21] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:12:21] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:12:21] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:12:21] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:12:23] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:12:23] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:12:25] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:12:25] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:17:08] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:17:08] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:17:10] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:17:10] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:17:13] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:17:13] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:17:14] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:17:14] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:21:45] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:21:45] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:21:47] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:21:47] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:21:48] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:21:48] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:23:15] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:23:15] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:23:16] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:23:16] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:23:17] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:23:17] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:26:57] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:26:57] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:27:05] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:27:05] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:27:06] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:27:06] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:27:14] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 12:27:14] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 12:27:41] [debug] [::1] entro metodo menu
+[17-Jul-2018 12:27:41] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 12:27:43] [debug] [::1] entro metodo submenu
+[17-Jul-2018 12:27:43] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 12:27:44] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 12:27:44] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 12:27:52] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 12:27:52] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 13:01:49] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 13:01:49] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 13:02:01] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 13:02:01] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 13:05:44] [debug] [::1] entro metodo menu
+[17-Jul-2018 13:05:44] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 13:05:48] [debug] [::1] entro metodo menu
+[17-Jul-2018 13:05:48] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 13:05:48] [debug] [::1] entro metodo menu
+[17-Jul-2018 13:05:48] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 13:05:50] [debug] [::1] entro metodo menu
+[17-Jul-2018 13:05:51] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 13:05:53] [debug] [::1] entro metodo submenu
+[17-Jul-2018 13:05:53] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 13:05:54] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 13:05:54] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 13:06:17] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 13:06:17] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 13:07:49] [debug] [::1] entro metodo menu
+[17-Jul-2018 13:07:49] [info] [::1] entro metodo menu bussiness
+[17-Jul-2018 13:07:51] [debug] [::1] entro metodo submenu
+[17-Jul-2018 13:07:51] [info] [::1] entro metodo obtieneSubMenu bussiness
+[17-Jul-2018 13:07:52] [debug] [::1] entro metodo empleado filter
+[17-Jul-2018 13:07:52] [debug] [::1] entro metodo empleadoFilter bussiness
+[17-Jul-2018 13:08:29] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 13:08:54] [debug] [::1] entro metodo agregarEmpelado bussiness
+[17-Jul-2018 15:42:01] [debug] [::1] entro metodo guardar empleado
+[17-Jul-2018 15:42:34] [debug] [::1] entro metodo agregarEmpelado bussiness

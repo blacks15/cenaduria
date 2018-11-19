@@ -1,0 +1,209 @@
+<div class="card">
+    <div class="card-body">
+        <h1 class="h1 text-center text-capitalize text-primary titulo-form">Punto de Venta</h1>
+        <hr>
+        <div class="form-group row">
+            <label for="sltCliente" class="col-lg-1 col-form-label font-weight-bold">Cliente:</label>
+            <div class="col-lg-2">
+                <select class="selectpicker show-tick" name="sltCliente" id="sltCliente" title="Seleccione un cliente..." tabindex="1" data-live-search="true"
+                    data-width="auto">
+                    <option value="0">Seleccione un cliente</option>
+                    <option value="1">General</option>
+                    <option value="2">Carlos</option>
+                </select>
+            </div>
+            <div class="col-lg-8">
+                <button class="btn btn-secondary col-lg-2 ml-3 float-right" data-toggle="tooltip" title="Reimprimir Ticket">
+                    <i class="fa fa-exchange-alt fa-lg"></i> Retirar
+                </button>
+                <button class="btn btn-secondary col-lg-2 margin-5px float-right">
+                    <i class="fa fa-file-alt fa-lg"></i> Cotizar
+                </button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="sltVenta" class="col-lg-1 col-form-label font-weight-bold">Venta:</label>
+            <div class="col-lg-2">
+                <select class="selectpicker show-tick" name="sltVenta" id="sltVenta" title="Seleccione el tipo de venta" tabindex="2" data-width="auto">
+                    <option value="0">Seleccione tipo de venta</option>
+                    <option value="1">Contado</option>
+                    <option value="2">Crédito</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="text" class="col-lg-3 form-control float-left buscarProducto font-weight-bold" id="txtCodigoBuscar" name="txtCodigoBuscar"
+                    tabindex="3" maxlength="30" placeholder="Ingrese Código..">
+                <div class="col-lg-9 table-responsive">
+                    <table class="table table-striped table-sm float-right width-50 bg-red">
+                        <thead>
+                            <tr class="bg-danger text-white">
+                                <th>Piezas</th>
+                                <th>Subtotal</th>
+                                <th>Descuento</th>
+                                <th>IVA</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="lblDetPiezas">10</td>
+                                <td id="lblDetSubtotal">$500</td>
+                                <td id="lblDetDescuento">$220</td>
+                                <td id="lblDetIva">$100</td>
+                                <td id="lblDetTotal">$620</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-sm thead_fixed">
+                        <thead>
+                            <tr class="table-primary2">
+                                <th>Código</th>
+                                <th>Producto</th>
+                                <th>Precio Unitario</th>
+                                <th class="text-center">Cantidad</th>
+                                <th>Descuento</th>
+                                <th>Total</th>
+                                <th colspan="2" class="text-center">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyPuntoVenta">
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td class="text-center" id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" min="1" max="999" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id" min="1" max="999"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" min="1" max="999" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" min="1" max="999" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" min="1" max="999" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="lblUniCod">015487</td>
+                                <td id="lblUniProducto">Playera Interior</td>
+                                <td id="lblUniPrecio">$80.00</td>
+                                <td>
+                                    <input type="number" min="1" max="999" class="form-control col-lg-6 col-sm-11 text-center center-content" id="txtCantidad_Id"
+                                        value="4" tabindex="4">
+                                </td>
+                                <td id="lblUniDescuento">$00.00</td>
+                                <td id="lblUniTotal">$320.00</td>
+                                <td id="lblEliminar" class="text-center">
+                                    <span id="tdVer_1" onclick="alert('borrar');">
+                                        <i data-toggle="tooltip" title="Eliminar" class="fa fa-trash fa-lg"></i>
+                                    </span>
+                                    <span id="tdVer_1" onclick="alert('ver');">
+                                        <i data-toggle="tooltip" title="Ver" class="fa fa-search fa-lg"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="button" class="col-lg-1 ml-2 mb-1 form-control btn-danger float-right" id="btnCancelar" value="Cancelar">
+                <input type="button" class="col-lg-1 ml-2 mb-1 form-control btn-success float-right" id="btnPagar" value="Cobrar">
+            </div>
+        </div>
+    </div>
+    <!-- END CARD BODY -->
+</div>
+<!-- END CARD -->
+<script type="text/javascript" src="public/js/frmPuntoVenta.js"></script>
